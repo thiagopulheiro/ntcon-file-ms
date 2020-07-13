@@ -1,0 +1,10 @@
+app:
+  build: .
+  links:
+    - rabbitmq:rabbitmq
+  entrypoint: ["./wait-for-it.sh", "rabbitmq:5672"]
+rabbitmq:
+  image: rabbitmq:3.6-management
+  ports:
+    - 5672:5672
+    - 15672:15672
