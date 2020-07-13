@@ -7,10 +7,6 @@ Nao foi realizado o bi-relacionamento das classes de Sale e SalesPerson pois nao
 claro no exercicio qual era a relacao entre estas referencias. Referencia era apenas por nome
 e nao garantida na ordem do arquivo.
 
-Nao foi tratado empates para melhor venda e pior vendedor pois iria extrapolar as 72 horas de exercicio.
-
-Nao foi realizado os testes de integracao pois iria extrapolar as 72 horas de exercicio.
-
 ## importante
 
 O diretorio dos arquivos de entrada e saida sao configuraveis
