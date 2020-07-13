@@ -16,8 +16,10 @@ A aplicacao nao esta criando o diretorio caso nao exista,
 entao por favor, selecione o diretorio antes de executar e
 salve ele corretamente editando as propriedades, ex:
 
+```
 file.dir.in=/Users/xpto/data/in
 file.dir.out=/Users/xpto/data/out
+```
 
 ## para executar
 ```
